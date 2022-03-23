@@ -10,10 +10,8 @@ public class AtividadeGrafos {
                 {{0, 1, 1, 0},//u
                         {1, 0, 1, 0},//v
                         {1, 1, 0, 1},//w
-                        {0, 0, 1, 0},//x
-                        {0, 0, 0, 0}};//y não se liga com ninguem
+                        {0, 0, 1, 0}};//x
 
-        //
         visitado = new Integer[]{0, 0, 0, 0};
 
         //Encontrando as componentes conexas
